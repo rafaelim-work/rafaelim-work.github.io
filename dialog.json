@@ -1,0 +1,52 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Ola\nBem vindo a prototipagem inicial mizeravis!🤗\nSe voce acertar a pergunta que eu fizer agora, vc nao precisa lutar. Animal ne? \nVc pagaria deh real para o Issao?\n[[ Nunca, nao quero! |Nada]]\n[[ Poe na conta do Diego |Pepino]]",
+		"position": {
+			"x": 10,
+			"y": 110
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Nada",
+		"tags": "",
+		"body": "Mizeravi! Vai lutar com o bixo entao!",
+		"position": {
+			"x": -118,
+			"y": 466
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Pepino",
+		"tags": "",
+		"body": "Ai nao, vai lutar com o monstrinho!",
+		"position": {
+			"x": 165,
+			"y": 462
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Monstro Derrotado",
+		"tags": "",
+		"body": "Mizeravi!\nConseguiu derrotar meu monstro...\nNao precisa pagar deh real entao! ",
+		"position": {
+			"x": 449,
+			"y": 251
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Heroi Derrotado",
+		"tags": "",
+		"body": "Toma essa mizeravi!🤡\nAgora pensou melhor e quer pagar de reais ne?",
+		"position": {
+			"x": 449,
+			"y": 634
+		},
+		"colorID": 0
+	}
+]
