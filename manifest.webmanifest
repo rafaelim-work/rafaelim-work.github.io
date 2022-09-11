@@ -1,8 +1,8 @@
 {
-  "name": "Various Boundary (Platformer)",
-  "short_name": "Various Boundary (Platformer)",
-  "id": "com.example.platformer",
-  "description": "An example of a basic platformer (Mario-like) game. Jump around and collect as many coins as you can!",
+  "name": "copaman",
+  "short_name": "copaman",
+  "id": "com.example.gamename",
+  "description": "",
   "orientation": "landscape",
   "start_url": "./index.html",
   "display": "standalone",
