@@ -2,50 +2,130 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "Ola\nBem vindo a prototipagem inicial mizeravis!🤗\nSe voce acertar a pergunta que eu fizer agora, vc nao precisa lutar. Animal ne? \nVc pagaria deh real para o Issao?\n[[ Nunca, nao quero! |Nada]]\n[[ Poe na conta do Diego |Pepino]]",
+		"body": "Bem vindo(a) a Aventuras do Lino\nLino: Olá, eu preciso da sua ajuda para manter a minha equipe unida. Responda corretamente às perguntas para destruir os monstrinhos da desunião.\nInstruções: \nUse as setas do seu teclado para se locomover.\nUse as letras 'a', 'b' e 'c' para percorrer pelas alternativas das perguntas.\nUse o 'ESPAÇO' para ataca os monstrinhos e selecionar sua resposta.\nVamos começar a aventura???\nPara responder às pròximas perguntas, vamos aprender sobre observação e avaliação na Comunicação Não Violenta.\nA observação consiste na descrição do que é captado por nossos sentidos de forma clara e detalhada. Na observação evitamos adicionar opiniões ou interpretações do que está sendo descrito.\nEx: Quando vejo você dar para os outros todo o dinheiro do almoço, acho que está sendo generoso demais.\nQuando é adicionada a avaliação na observação, é passada uma interpretação do fato ocorrido como se aquilo tivesse sido observado.\nEx: Você é generoso demais.\nAgora que você aprendeu, vamos para a primeira pergunta\nATENÇÃO: Se você errar, o monstro fica mais forte e podemos perder um membro da nossa equipe.\nSabendo o que é observação e observação com avaliação...\n\nQual das seguintes frases representa uma observação sem avaliação?\n[[ a. Semana passada, a Maria me ignorou sem motivo. |a]]\n[[ b. Meu pai vive reclamando que a TV não tem netflix. |b]] \n[[ c. Dona Lurdes foi na lotérica todos os dias dessa semana. |c]]",
 		"position": {
-			"x": 10,
-			"y": 110
+			"x": -1001,
+			"y": -104
 		},
-		"colorID": 0
-	},
-	{
-		"title": "Nada",
-		"tags": "",
-		"body": "Mizeravi! Vai lutar com o bixo entao!",
-		"position": {
-			"x": -118,
-			"y": 466
-		},
-		"colorID": 0
-	},
-	{
-		"title": "Pepino",
-		"tags": "",
-		"body": "Ai nao, vai lutar com o monstrinho!",
-		"position": {
-			"x": 165,
-			"y": 462
-		},
-		"colorID": 0
+		"colorID": 8
 	},
 	{
 		"title": "Monstro Derrotado",
 		"tags": "",
-		"body": "Mizeravi!\nConseguiu derrotar meu monstro...\nNao precisa pagar deh real entao! ",
+		"body": "<< DialogTag Lino >> \nVocê conseguiu!\nsobre a comunidade, pode participar quem quiser.\nÉ só ter interesse nos assuntos discutidos.\nAcho que agora você está mais acosutmado.\nVamos para um desafio um pouco mais interessante.\n<< HeroWin >>",
 		"position": {
-			"x": 449,
-			"y": 251
+			"x": 30,
+			"y": -523
 		},
 		"colorID": 0
 	},
 	{
 		"title": "Heroi Derrotado",
 		"tags": "",
-		"body": "Toma essa mizeravi!🤡\nAgora pensou melhor e quer pagar de reais ne?",
+		"body": "<< GameOver >>\n<< DialogTag Chort >>\nMuito cedo para se aventurar por aqui.\nVá estudar um pouco.\nAh.\nE volte do início para aprender.\nMwahahahahaha\n<<  wait 1000 >>",
 		"position": {
-			"x": 449,
-			"y": 634
+			"x": 32,
+			"y": -812
+		},
+		"colorID": 0
+	},
+	{
+		"title": "cnv",
+		"tags": "",
+		"body": "Para responder as pròximas perguntas, vamos aprender sobre observação e avaliação na Comunicação Não Violenta.\nA observação consiste na descrição do que é captado por nossos sentidos de forma clara e detalhada evitando \nadicionar opiniões ou interpretações do que está sendo descrito.\nEx: Quando vejo você dar para os outros todo o dinheiro do almoço, acho que está sendo generoso demais.\nQuando é adicionada a avaliação na observação, é passada uma interpretação do fato ocorrido como se aquilo tivesse sido observado.\nEx: Você é generoso demais.",
+		"position": {
+			"x": -553,
+			"y": 607
+		},
+		"colorID": 8
+	},
+	{
+		"title": "a",
+		"tags": "",
+		"body": "Não é essa a resposta correta :( \nQuando afirmamos que Maria estava com raiva sem motivo algum, isso é a nossa opinião, não sabemos realmente se ela não tinha um motivo para ficar com raiva.\nA resposta certa é a c, \"Dona Lurdes foi na lotérica todos os dias dessa semana\", porque essa frase representa uma observação apenas, sem nenhuma interpretação ou opinião adicionada.",
+		"position": {
+			"x": -604,
+			"y": 171
+		},
+		"colorID": 0
+	},
+	{
+		"title": "b",
+		"tags": "",
+		"body": "Não é esta a resposta correta :( Quando eu afirmo que ele vive reclamando, isso é baseado na minha interpretação das reclamações dele, mas não é um fato observado.",
+		"position": {
+			"x": -213,
+			"y": 144
+		},
+		"colorID": 0
+	},
+	{
+		"title": "c",
+		"tags": "",
+		"body": "Você acertou!!! Tu é bichão mesmo em?",
+		"position": {
+			"x": 141,
+			"y": -108
+		},
+		"colorID": 0
+	},
+	{
+		"title": "teste",
+		"tags": "",
+		"body": "Usar para pular dialogo",
+		"position": {
+			"x": -1017,
+			"y": -1293
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Tutorial",
+		"tags": "",
+		"body": "<< DialogTag Lino >> \nBem vindo(a) aventureiro da comunidade!\nEu sou o Lino, o mascote da comunidade ágil!\nPreciso da sua ajuda para manter a nossa equipe unida e derrotar os monstrinhos da desunião.\nPronto para começar?\n[[ Mas como o jogo funciona? |controle]]\n[[ Bora! |sim]]",
+		"position": {
+			"x": -738,
+			"y": -815
+		},
+		"colorID": 0
+	},
+	{
+		"title": "sim",
+		"tags": "",
+		"body": "<< DialogTag Lino >> \nBora então!\nVamos aquecer com o monstrinho que está na nossa frente.\nEle é o monstrinho da \"Comunidade de Prática\".\nÉ o que chamamos de CoP (Community of Practice)!\n<< DialogTag Chort >> \nSerá que você vai saber responder?\n<< DialogTag Lino >> \nEle vai fazer uma pergunta sobre CoP.\nRelaxa!\nVocê vai conseguir responder com seu instinto. \nNem preciso explicar para você esse assunto!\nLá vem a pergunta dele!\n<< DialogTag Chort >> \nQuem pode fazer parte de uma CoP?\n[[ Aqueles aprovado pela liderança |errada]]\n[[ Qualquer um que tem interesse |correta]]\n[[ Aqueles aprovado pela comunidade |errada]]",
+		"position": {
+			"x": -454,
+			"y": -528
+		},
+		"colorID": 0
+	},
+	{
+		"title": "controle",
+		"tags": "",
+		"body": "<< DialogTag Lino >> \nVocê começa como líder de uma equipe de 4 pessoas. \nSe você perder todos os membros, perdemos o jogo!\nMas se você derrotar o monstrinho, está tudo ok!\nAh! Um detalhe...\nTodo monstrinho faz uma pergunta antes da batalha sobre algum tema discutido pela comunidade.\nSe você errar a pergunta, ele fica mais forte! Então cuidado...\nSe você acertar, você fica mais forte! Legal né?\nFica tranquilo que dou uma breve explicação sobre o tema antes da pergunta!\nConsegui te explicar?\n[[ Sim, bora! |sim]]\n[[ Explica denovo? |controle]]",
+		"position": {
+			"x": -460,
+			"y": -815
+		},
+		"colorID": 0
+	},
+	{
+		"title": "correta",
+		"tags": "",
+		"body": "<< DialogTag Chort >> \nMizerávi! O cara acertou...\n<< HeroLevelup >> \n<< wait 2000>> \n<< DialogTag Lino >> \nMuito bem! \nAgora você tem uma espada melhor.\nVamos lá!",
+		"position": {
+			"x": -214,
+			"y": -812
+		},
+		"colorID": 0
+	},
+	{
+		"title": "errada",
+		"tags": "",
+		"body": "<< DialogTag Chort >> \nHahahaha. Você errou!\nHora de me fortalecer!\n<< MonsterLevelup >> \n<< wait 2000>> \nPronto. Vamos lutar!\n<< DialogTag Lino >> \nLá vem ele!",
+		"position": {
+			"x": -211,
+			"y": -521
 		},
 		"colorID": 0
 	}
