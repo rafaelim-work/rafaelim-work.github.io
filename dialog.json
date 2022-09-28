@@ -12,7 +12,7 @@
 	{
 		"title": "Monstro Derrotado",
 		"tags": "",
-		"body": "<< DialogTag Lino >> \nVocê conseguiu!\nsobre a comunidade, pode participar quem quiser.\nÉ só ter interesse nos assuntos discutidos.\nAcho que agora você está mais acosutmado.\nVamos para um desafio um pouco mais interessante.\n<< HeroWin >>",
+		"body": "<< DialogTag Lino >> \nVocê conseguiu!\nSobre a comunidade, pode participar quem quiser.\nÉ só ter interesse nos assuntos discutidos.\nAcho que agora você está preparado.\nVamos para o próximo desafio!\n<< HeroWin >>",
 		"position": {
 			"x": 30,
 			"y": -523
@@ -70,22 +70,12 @@
 		"colorID": 0
 	},
 	{
-		"title": "teste",
-		"tags": "",
-		"body": "Usar para pular dialogo",
-		"position": {
-			"x": -1017,
-			"y": -1293
-		},
-		"colorID": 0
-	},
-	{
 		"title": "Tutorial",
 		"tags": "",
 		"body": "<< DialogTag Lino >> \nBem vindo(a) aventureiro da comunidade!\nEu sou o Lino, o mascote da comunidade ágil!\nPreciso da sua ajuda para manter a nossa equipe unida e derrotar os monstrinhos da desunião.\nPronto para começar?\n[[ Mas como o jogo funciona? |controle]]\n[[ Bora! |sim]]",
 		"position": {
-			"x": -738,
-			"y": -815
+			"x": -773,
+			"y": -811
 		},
 		"colorID": 0
 	},
@@ -94,7 +84,7 @@
 		"tags": "",
 		"body": "<< DialogTag Lino >> \nBora então!\nVamos aquecer com o monstrinho que está na nossa frente.\nEle é o monstrinho da \"Comunidade de Prática\".\nÉ o que chamamos de CoP (Community of Practice)!\n<< DialogTag Chort >> \nSerá que você vai saber responder?\n<< DialogTag Lino >> \nEle vai fazer uma pergunta sobre CoP.\nRelaxa!\nVocê vai conseguir responder com seu instinto. \nNem preciso explicar para você esse assunto!\nLá vem a pergunta dele!\n<< DialogTag Chort >> \nQuem pode fazer parte de uma CoP?\n[[ Aqueles aprovado pela liderança |errada]]\n[[ Qualquer um que tem interesse |correta]]\n[[ Aqueles aprovado pela comunidade |errada]]",
 		"position": {
-			"x": -454,
+			"x": -453,
 			"y": -528
 		},
 		"colorID": 0
@@ -112,7 +102,7 @@
 	{
 		"title": "correta",
 		"tags": "",
-		"body": "<< DialogTag Chort >> \nMizerávi! O cara acertou...\n<< HeroLevelup >> \n<< wait 2000>> \n<< DialogTag Lino >> \nMuito bem! \nAgora você tem uma espada melhor.\nVamos lá!",
+		"body": "<< DialogTag Chort >> \nMizerávi! O cara acertou...\n<< HeroLevelup >> \n<< DialogTag Lino >> \nMuito bem! \nAgora você tem uma espada melhor.\nVamos lá!",
 		"position": {
 			"x": -214,
 			"y": -812
@@ -122,10 +112,150 @@
 	{
 		"title": "errada",
 		"tags": "",
-		"body": "<< DialogTag Chort >> \nHahahaha. Você errou!\nHora de me fortalecer!\n<< MonsterLevelup >> \n<< wait 2000>> \nPronto. Vamos lutar!\n<< DialogTag Lino >> \nLá vem ele!",
+		"body": "<< DialogTag Chort >> \nHahahaha. Você errou!\nHora de me fortalecer!\n<< MonsterLevelup >> \nEstou crescendooooooo!!!\nPronto. Vamos lutar!\n<< DialogTag Lino >> \nLá vem ele!",
 		"position": {
 			"x": -211,
 			"y": -521
+		},
+		"colorID": 0
+	},
+	{
+		"title": "CNV1",
+		"tags": "",
+		"body": "<< DialogTag Lino >> \nÉ o nosso último desafio!\nAgora é o monstro da \"CNV - Comunicação não violenta\"!\n<< DialogTag Chort >>\nShow!\nVou te observar, sem avaliação.\n<< DialogTag Lino >> \nOpa, parece que ele vai falar sobre observação. Um dos componentes da CNV!\nQuer uma explicação sobre \"observação sem avaliação\"?\n[[ Quero! |explicacao_observacao]] \n[[ Não precisa, já sei! |sim_2]]",
+		"position": {
+			"x": -1898,
+			"y": -815
+		},
+		"colorID": 0
+	},
+	{
+		"title": "sim_2",
+		"tags": "",
+		"body": "<< DialogTag Lino >> \nBora então!\n<< DialogTag Chort >> \nTo de olho!\nSerá que você está pronto?\nQual das seguintes frases representa uma observação sem avaliação?\n[[ Semana passada, a Maria me ignorou sem motivo. |errada_2]]\n[[ Meu pai vive reclamando que a TV não tem netflix. |errada_2]] \n[[ Dona Lurdes foi na lotérica todos os dias dessa semana. |correta_2]]",
+		"position": {
+			"x": -1580,
+			"y": -518
+		},
+		"colorID": 0
+	},
+	{
+		"title": "correta_2",
+		"tags": "",
+		"body": "<< DialogTag Chort >> \nEita! Observou bem a resposta CERTA!\n<< HeroLevelup >> \nEita! Estou observando sua espada ficar mais longa!\nEita! Eita! Eita! \n<< DialogTag Lino >> \nBoa! Acertou a pergunta.\nAgora é hora de terminar o último desafio.\nBora!",
+		"position": {
+			"x": -1336,
+			"y": -821
+		},
+		"colorID": 0
+	},
+	{
+		"title": "errada_2",
+		"tags": "",
+		"body": "<< DialogTag Chort >> \nObservou bem a resposta ERRADA!\n<< MonsterLevelup >> \nObserve bem agora o meu tamanho ficando maior!\nObservou?\nAgora observe eu indo para cima!\n<< DialogTag Lino >> \nLá vem ele!\nCuidado!",
+		"position": {
+			"x": -1331,
+			"y": -521
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Monstro Derrotado_2",
+		"tags": "",
+		"body": "<< DialogTag Lino >> \nVocê conseguiu!\nA frase não possui nenhuma interpretação ou opinião adicionada a ela, consiste apenas em fatos observados.\n\nVOCÊ GANHOU O JOGO!! Agora o que acha de conhecer e participar da nossa comunidade? Ficaremos muito felizes de te receber lá.\n<< HeroWin >>",
+		"position": {
+			"x": -1091,
+			"y": -522
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Heroi Derrotado_2",
+		"tags": "",
+		"body": "<< GameOver >>\n<< DialogTag Chort >>\nObservei que você ainda precisa aprender mais.\nVolte desde o início!\nFicarei observando a sua aventura até chegar aqui novamente.",
+		"position": {
+			"x": -1089,
+			"y": -822
+		},
+		"colorID": 0
+	},
+	{
+		"title": "desenvAgil",
+		"tags": "",
+		"body": "<< DialogTag Lino >> \nEita!\nÉ o monstro da \"Normalização do desvio\"!\nQuer que eu explique sobre \"Normalização do desvio\"?\n[[ Quero! |explicacao_normalizacao_desvio]] \n[[ Não precisa, já sei! |sim_3]]",
+		"position": {
+			"x": -1098,
+			"y": -1498
+		},
+		"colorID": 0
+	},
+	{
+		"title": "sim_3",
+		"tags": "",
+		"body": "<< DialogTag Lino >> \nBora então!\n<< DialogTag Chort >> \nAi que preguiça... Mas vamos lá...\nQual das frases representa uma norma 'em uso'? Atravessar a rua...\n[[ quando não tem carro passando |correta_3]]\n[[ na faixa de pedestre |errada_3]]\n[[ somente quando o sinal está verde para o pedestre |errada_3]]",
+		"position": {
+			"x": -738,
+			"y": -1199
+		},
+		"colorID": 0
+	},
+	{
+		"title": "correta_3",
+		"tags": "",
+		"body": "<< DialogTag Chort >> \nHum... Acertou... Que droga...\n<< HeroLevelup >> \n<< DialogTag Lino >> \nOlha a espada ficando forte!\nA-N-I-M-A-L!\nVamos lá!",
+		"position": {
+			"x": -467,
+			"y": -1494
+		},
+		"colorID": 0
+	},
+	{
+		"title": "errada_3",
+		"tags": "",
+		"body": "<< DialogTag Chort >> \nEita... Você errou...\nQue preguiça de ficar forte... Mas vamos lá...\n<< MonsterLevelup >>\nEita... To crescendo...\nPronto... Fui lutar...\n<< DialogTag Lino >> \nLá vem ele, cuidado!",
+		"position": {
+			"x": -464,
+			"y": -1202
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Monstro Derrotado_3",
+		"tags": "",
+		"body": "<< DialogTag Lino >> \nVocê conseguiu!\nA frase correta é 'Atravessar a rua quando não tem carro passando'.\nRepresenta um comportamento não correto que pode levar a um desastre e por isso é classificada como norma em uso!\nPara finalizar, vamos para o último monstro!\n<< HeroWin >>",
+		"position": {
+			"x": -209,
+			"y": -1204
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Heroi Derrotado_3",
+		"tags": "",
+		"body": "<< GameOver >>\n<< DialogTag Chort >>\nPreguiça de mandar você para o começo...\nMas fazer o que... Você perdeu né...\nVai lá e tenta denovo... Ou não...\n<<  wait 1000 >>",
+		"position": {
+			"x": -210,
+			"y": -1492
+		},
+		"colorID": 0
+	},
+	{
+		"title": "explicacao_normalizacao_desvio",
+		"tags": "",
+		"body": "Deixa eu te explicar rapidinho.\n\"Normalização do desvio\" surgiu ao analisar o desastre do ônibus espacial Challenger!\nO motivo do desastre estava ligada à decisão repetida dos oficiais da NASA de lançar o ônibus espacial, apesar de uma perigosa falha de projeto relacionada aos anéis de vedação dos foguetes...\nLoucura né?\nIsso ocorre quando as pessoas de uma organização se tornam tão insensíveis a uma prática irregular que esta passa a não parecer errada.\nNesta situação podemos destacar duas normas, a 'adotada' e a 'em uso'.\nNorma adotada: Norma com o comportamento correto ou apropriado\nEX: Não realizar o lançamento se for detectado alguma falha no ônibus espacial\nNorma em uso: frequentemente a norma desastrosa\nEX: Realizar o lançamento do ônibus mesmo sabendo da falha por não ter ocorrido nenhum problema.\nAgora que você aprendeu, está preparado?\n[[ Bora! |sim_3]]\n[[ Repete por favor? |explicacao_normalizacao_desvio]]",
+		"position": {
+			"x": -742,
+			"y": -1499
+		},
+		"colorID": 0
+	},
+	{
+		"title": "explicacao_observacao",
+		"tags": "",
+		"body": "<< DialogTag Lino>> \nVocê já percebeu como é difícl distinguir observação e avaliação?\nA observação consiste na descrição do que é captado por nossos sentidos de forma clara e detalhada.\nQuando é adicionada a avaliação na observação, é passada uma interpretação do fato ocorrido como se aquilo tivesse sido observado.\nComplicado?\nVamos ver um exemplo!\nUma observação com uma avaliação: \"Você é generoso demais.\"\nNesta frase você avaliou a pessoa como sendo uma pessoa 'generosa'.\nMesmo sendo uma palavra positiva, você rotulou a pessoa!\nComo seria a mesma ideia sem avaliação você pergunta?\nPoderia ser assim:\n\"Quando vejo você dar para os outros todo o dinheiro do almoço, acho que está sendo generoso demais.\"\nNesta frase, você se responsabiliza pela sua opinião dizendo: \"(eu) acho que está sendo generoso demais\".\nTem muito mais, mas já dá para enfrentar a pergunta!\nVocê está preparado?\n[[ Bora! |sim_2]]\n[[ Quero ver a explicação de novo. |explicacao_observacao]]",
+		"position": {
+			"x": -1579,
+			"y": -815
 		},
 		"colorID": 0
 	}
