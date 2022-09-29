@@ -135,7 +135,7 @@
 		"body": "<< DialogTag Lino >> \nBora então!\n<< DialogTag Chort >> \nTo de olho!\nSerá que você está pronto?\nQual das seguintes frases representa uma observação sem avaliação?\n[[ Semana passada, a Maria me ignorou sem motivo. |errada_2]]\n[[ Meu pai vive reclamando que a TV não tem netflix. |errada_2]] \n[[ Dona Lurdes foi na lotérica todos os dias dessa semana. |correta_2]]",
 		"position": {
 			"x": -1580,
-			"y": -518
+			"y": -512
 		},
 		"colorID": 0
 	},
@@ -162,7 +162,7 @@
 	{
 		"title": "Monstro Derrotado_2",
 		"tags": "",
-		"body": "<< DialogTag Lino >> \nVocê conseguiu!\nA frase não possui nenhuma interpretação ou opinião adicionada a ela, consiste apenas em fatos observados.\n\nVOCÊ GANHOU O JOGO!! Agora o que acha de conhecer e participar da nossa comunidade? Ficaremos muito felizes de te receber lá.\n<< HeroWin >>",
+		"body": "<< DialogTag Lino >> \nVocê conseguiu!\nA frase correta é: \"Dona Lurdes foi na lotérica todos os dias dessa semana.\"\nEsta frase não possui nenhuma interpretação ou opiniãoe e consiste apenas em fatos observados!\nE...\nInfelizmente chegamos no final do jogo...\nMas a continuação você pode ver na comunidade!\nEsperamos a sua presença!\nAté a próxima!\nCurta os créditos agora, fui!\n<< HeroWin >>",
 		"position": {
 			"x": -1091,
 			"y": -522

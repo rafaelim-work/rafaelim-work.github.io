@@ -209,6 +209,8 @@ gdjs.copyArray(runtimeScene.getObjects("BlackFade"), gdjs._481ControlesCode.GDBl
 }{for(var i = 0, len = gdjs._481ControlesCode.GDBlackFadeObjects1.length ;i < len;++i) {
     gdjs._481ControlesCode.GDBlackFadeObjects1[i].setOpacity(0);
 }
+}{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(3);
+}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "POL-super-match-short.wav", 1, true, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)), 1);
 }
 { //Subevents
 gdjs._481ControlesCode.eventsList0(runtimeScene);} //End of subevents
@@ -232,7 +234,7 @@ gdjs._481ControlesCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButto
 }if ( gdjs._481ControlesCode.condition1IsTrue_0.val ) {
 {
 {gdjs._481ControlesCode.conditionTrue_1 = gdjs._481ControlesCode.condition2IsTrue_0;
-gdjs._481ControlesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21320308);
+gdjs._481ControlesCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(21532876);
 }
 }}
 }
@@ -337,6 +339,7 @@ for(var i = 0, len = gdjs._481ControlesCode.GDclicaAquiObjects1.length ;i < len;
 }{for(var i = 0, len = gdjs._481ControlesCode.GDBlackFadeObjects1.length ;i < len;++i) {
     gdjs._481ControlesCode.GDBlackFadeObjects1[i].setOpacity(gdjs._481ControlesCode.GDBlackFadeObjects1[i].getOpacity() + (150 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
 }
+}{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 1, 1, 30);
 }}
 
 }
