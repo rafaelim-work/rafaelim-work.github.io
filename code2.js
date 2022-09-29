@@ -2375,7 +2375,7 @@ gdjs.copyArray(runtimeScene.getObjects("Chort"), gdjs._482TutorialCode.GDChortOb
     gdjs._482TutorialCode.GDChortObjects3[i].getBehavior("Tween").addObjectPositionTween("posicaoInicial", (gdjs.RuntimeObject.getVariableNumber(gdjs._482TutorialCode.GDChortObjects3[i].getVariables().getFromIndex(1))), (gdjs.RuntimeObject.getVariableNumber(gdjs._482TutorialCode.GDChortObjects3[i].getVariables().getFromIndex(2))), "easeFromTo", 2000, false);
 }
 }{for(var i = 0, len = gdjs._482TutorialCode.GDHeroiObjects3.length ;i < len;++i) {
-    gdjs._482TutorialCode.GDHeroiObjects3[i].getBehavior("Tween").addObjectPositionTween("posicaoInicial", (gdjs.RuntimeObject.getVariableNumber(gdjs._482TutorialCode.GDHeroiObjects3[i].getVariables().getFromIndex(4))), (gdjs.RuntimeObject.getVariableNumber(gdjs._482TutorialCode.GDHeroiObjects3[i].getVariables().getFromIndex(5))), "easeFromTo", 2000, false);
+    gdjs._482TutorialCode.GDHeroiObjects3[i].getBehavior("Tween").addObjectPositionTween("posicaoInicialDerrotado", (gdjs.RuntimeObject.getVariableNumber(gdjs._482TutorialCode.GDHeroiObjects3[i].getVariables().getFromIndex(4))), (gdjs.RuntimeObject.getVariableNumber(gdjs._482TutorialCode.GDHeroiObjects3[i].getVariables().getFromIndex(5))), "easeFromTo", 2000, false);
 }
 }}
 
